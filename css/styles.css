@@ -842,3 +842,24 @@ img {
   border-radius: 4px;
   transition: transform 250ms var(--transition-timing-function);
 }
+
+.close-btn {
+  display: flex;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  justify-content: center;
+  align-items: center;
+
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.close-icon {
+  width: 18px;
+  height: 18px;
+  fill: #000000;
+}
