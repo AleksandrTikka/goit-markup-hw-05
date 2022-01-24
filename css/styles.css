@@ -493,7 +493,7 @@ img {
   height: 20px;
   fill: var(--icon-color);
 
-  transition: background-color 250ms var(--transition-timing-function);
+  transition: fill 250ms var(--transition-timing-function);
 }
 
 .team-link:hover,
